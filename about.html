@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header" > 
+        <nav>
+            <a href="index.html"><img src="imaged/logo.png" alt="logos"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About us</h1>
+    </section>
+
+   <!-- about us content -->
+   <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+      <h1>we are the world's largest university</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores expedita sint, amet esse laboriosam itaque at cum ab nihil eius dignissimos rerum id doloribus corrupti exercitationem perspiciatis? Earum, vero et.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum placeat aliquid laboriosam dolorem molestias, neque doloremque eligendi recusandae libero quia dolorum ducimus rem, perspiciatis commodi veniam facere. Possimus, a.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quae modi iusto, facilis, doloribus a officia accusantium debitis reiciendis blanditiis eaque tempora quis adipisci qui dignissimos ad saepe. Cum, voluptatibus.</p>
+        <a href="" class="hero-btn red-btn">explore now</a>
+      </div>
+      <div class="about-col">
+       <img src="imaged/about.jpg" alt="">
+
+      </div>
+    </div>
+
+   </section>
+
+    <!-- footer -->
+
+<section class="footer">
+    <h4>about us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vero tempora quod eum, nam quidem incidunt explicabo beatae ratione magnam est. <br> aliquid eligendi, recusandae veritatis vero velit tempora. Et.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+
+    </div>
+<p> made with <i class="fa fa-heart-o"></i>just</p>
+
+</section>
+    
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px ";
+            
+        }
+    </script>
+</body>
+</html>

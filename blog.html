@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header" > 
+        <nav>
+            <a href="index.html"><img src="imaged/logo.png" alt="logos"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our certificate and olinr programs for 2022</h1>
+    </section>
+
+    <!-- blog page content -->
+         <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="imaged/cer.jpg" alt="">
+                    <h2>our certificate and onle programs for 2022</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis soluta, ex quod doloremque voluptatibus sint quaerat reprehenderit quae error necessitatibus asperiores facere autem deserunt alias. Et molestiae magni minus esse?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, molestias! Sint et fuga sunt, tenetur magnam ut ratione totam quod deserunt reprehenderit dolorem vitae. Porro alias accusamus aut minima saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia alias cupiditate incidunt possimus inventore in porro nemo quos labore dolore quas doloribus ad sit minima, non ullam eveniet ipsum.
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis soluta, ex quod doloremque voluptatibus sint quaerat reprehenderit quae error necessitatibus asperiores facere autem deserunt alias. Et molestiae magni minus esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, molestias! Sint et fuga sunt, tenetur magnam ut ratione totam quod deserunt reprehenderit dolorem vitae. Porro alias accusamus aut minima saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis soluta, ex quod doloremque voluptatibus sint quaerat reprehenderit quae error necessitatibus asperiores facere autem deserunt alias. Et molestiae magni minus esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, molestias! Sint et fuga sunt, tenetur magnam ut ratione totam quod deserunt reprehenderit dolorem vitae. Porro alias accusamus aut minima saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis soluta, ex quod doloremque voluptatibus sint quaerat reprehenderit quae error necessitatibus asperiores facere autem deserunt alias. Et molestiae magni minus esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, molestias! Sint et fuga sunt, tenetur magnam ut ratione totam quod deserunt reprehenderit dolorem vitae. Porro alias accusamus aut minima saepe.
+                    </p>
+
+
+                 <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form" >
+                        <input type="text" placeholder="enter name">
+                        <input type="email" placeholder="enter email">
+                        <textarea row="5" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                 </div>
+
+
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post categories</h3>
+                    <div>
+                        <span>Bussiness Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>43</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+         </section>
+      <!-- footer -->
+
+<section class="footer">
+    <h4>about us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vero tempora quod eum, nam quidem incidunt explicabo beatae ratione magnam est. <br> aliquid eligendi, recusandae veritatis vero velit tempora. Et.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+
+    </div>
+<p> made with <i class="fa fa-heart-o"></i>just</p>
+
+</section>
+    
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px ";
+            
+        }
+    </script>
+</body>
+</html>
